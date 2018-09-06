@@ -1,0 +1,281 @@
+@charset "utf-8";
+/*
+Template: jstork
+Theme Name: stork_custom
+Theme URI:http://open-cage.com/stork/
+*/
+ 
+/*********フォローボタン**********/
+.follow-btn{
+ width: 100%;
+ margin: 5px 0px 5px 0px;
+}
+.follow-btn ul {
+ list-style: none;
+ display: -webkit-flex;
+ display: flex;
+ margin: 0;
+ padding: 0;
+}
+.follow-btn li {
+ height:100px;
+ width: 100%;
+ -webkit-transition: width 0.3s ease-out;
+ transition: width 0.3s ease-out;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center;
+ align-items: center;
+ -webkit-justify-content: center;
+ justify-content: center;
+}
+.follow-btn li:hover {
+ width: 200%;
+}
+.follow-btn li span{
+ line-height:2.5;
+ font-size:180%;
+ font-weight: normal;
+ font-style: normal;
+ font-weight: normal;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+ 
+ 
+.Twitter_btn{
+ background: #55ACEE;/*Twitterの背景色*/
+}
+.Facebook_btn {
+ background: #5882FA;/*Facebookの背景色*/
+}
+.Feedly_btn {
+ background: #82C36F;/*Feedlyの背景色*/
+}
+.Insta_btn {
+ background: #5F5E5E;/*Instagramの背景色*/
+}
+ 
+.Youtube_btn {
+ background: #F06A6A;/*YouTubeの背景色*/
+}
+ 
+.Twitter-icon:before{
+ content: "\f099";/*Twitterアイコン*/
+ color: #ffffff;
+ display: inline-block;
+ font-family: FontAwesome;
+}
+.Facebook-icon:before{
+ content: "\f230";/*Facebookアイコン*/
+ display: inline-block;
+ font-family: FontAwesome;
+}
+.Feedly-icon:before{
+ content: "\f09e";/*Feedlyアイコン*/
+ display: inline-block;
+ font-family: FontAwesome;
+}
+ 
+.Insta-icon:before{
+ content: "\f16d";/*Instagramアイコン*/
+ display: inline-block;
+ font-family: FontAwesome;
+}
+ 
+.Youtube-icon:before{
+ content: "\f167";/*YouTubeアイコン*/
+ display: inline-block;
+ font-family: FontAwesome;
+}
+ 
+.follow-btn a {
+ width:100%;
+ height:100%;
+ font-size: 13px;
+ line-height: 1;
+ font-weight: normal;
+ text-decoration: none;
+ text-align: center;
+ color: #ffffff;
+ -webkit-transition: all 0.3s ease-out;
+ transition: all 0.3s ease-out;
+}
+
+
+/* フォローボタン5*/
+.flw_btn5 {
+display: inline-block;
+position: relative;
+box-sizing: border-box;
+text-decoration: none;
+color: #fff !important;
+width: 50px;
+height: 50px;
+line-height: 50px;
+font-size: 22px !important;
+border-radius: 50%;
+text-align: center;
+vertical-align: middle;
+margin: 2px;
+padding: 0px 0px 0px 3px;
+transition: .4s;
+}
+.flw_btn5:hover {
+color: #fff !important;
+opacity: 0.5;
+}
+.flw_btn5.fb { background: #6680d8 !important; }
+.flw_btn5.htb { background: #49a8fb !important; }
+.flw_btn5.tw { background: #22b8ff !important; }
+.flw_btn5.pkt { background: #ff6d82 !important; }
+.flw_btn5.fdly { background: #6cc655 !important; }
+.flw_btn5.gp { background: #fd6969 !important; }
+.flw_btn5.ist { background: #e84cb6 !important; }
+.flw_btn5.cnt { background: #878484 !important; }
+
+
+
+/* フォローボタン3*/
+.flw_btn3 {
+display: inline-block;
+position: relative;
+text-decoration: none;
+width: 100px;
+height: 80px;
+border-radius: 0px;
+transition: .4s;
+}
+.flw_btn3 .fa {
+position: absolute;
+font-size: 25px !important;
+top: 40%;
+left: 50%;
+-ms-transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+margin:0;
+padding:0;
+}
+.flw_btn3 .label {
+position: absolute;
+font-size: 12px !important;
+top: 70%;
+left: 50%;
+-ms-transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+margin:0;
+padding:0;
+}
+.flw_btn3.fb {
+color: #fff !important;
+border: solid 2px #6680d8 !important;
+background: #6680d8 !important;
+}
+.flw_btn3.fb:hover {
+color: #6680d8 !important;
+border: solid 2px #6680d8 !important;
+background: #fff !important;
+}
+.flw_btn3.htb {
+color: #fff !important;
+border: solid 2px #49a8fb !important;
+background: #49a8fb !important;
+}
+.flw_btn3.htb:hover {
+color: #49a8fb !important;
+border: solid 2px #49a8fb !important;
+background: #fff !important;
+}
+.flw_btn3.tw {
+color: #fff !important;
+border: solid 2px #22b8ff !important;
+background: #22b8ff !important;
+}
+.flw_btn3.tw:hover {
+color: #22b8ff !important;
+border: solid 2px #22b8ff !important;
+background: #fff !important;
+}
+.flw_btn3.pkt {
+color: #fff !important;
+border: solid 2px #ff6d82 !important;
+background: #ff6d82 !important;
+}
+.flw_btn3.pkt:hover {
+color: #ff6d82 !important;
+border: solid 2px #ff6d82 !important;
+background: #fff !important;
+}
+.flw_btn3.fdly {
+color: #fff !important;
+border: solid 2px #6cc655 !important;
+background: #6cc655 !important;
+}
+.flw_btn3.fdly:hover {
+color: #6cc655 !important;
+border: solid 2px #6cc655 !important;
+background: #fff !important;
+}
+.flw_btn3.gp {
+color: #fff !important;
+border: solid 2px #fd6969 !important;
+background: #fd6969 !important;
+}
+.flw_btn3.gp:hover {
+color: #fd6969 !important;
+border: solid 2px #fd6969 !important;
+background: #fff !important;
+}
+.flw_btn3.ist {
+color: #fff !important;
+border: solid 2px #e84cb6 !important;
+background: #e84cb6 !important;
+}
+.flw_btn3.ist:hover {
+color: #e84cb6 !important;
+border: solid 2px #e84cb6 !important;
+background: #fff !important;
+}
+.flw_btn3.cnt {
+color: #fff !important;
+border: solid 2px #878484 !important;
+background: #878484 !important;
+}
+.flw_btn3.cnt:hover {
+color: #878484 !important;
+border: solid 2px #878484 !important;
+background: #fff !important;
+}
+
+
+
+
+
+
+/* ラベルBOX2 */
+.label-box2 {
+    position: relative;
+    margin: 10px 10px;
+    padding: 35px 15px 7px;
+    border: solid 3px #ff7e67;
+}
+.label-box2-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 3px 9px;
+    height: 30px;
+    line-height: 25px;
+    vertical-align: middle;
+    font-size: 17px;
+    background: #ff7e67;
+    color: #ffffff;
+    font-weight: bold;
+}
+.label-box2 p {
+    margin: 0; 
+    padding: 0;
+}
